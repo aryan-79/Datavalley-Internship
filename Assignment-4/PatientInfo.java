@@ -5,7 +5,7 @@ public class PatientInfo {
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             Connection connection = DriverManager.getConnection(
-                    "jdbc:oracle:thin:@localhost:1521:xe", "johndoe", " ");
+                    "jdbc:oracle:thin:@localhost:1521:xe", "aryan79", " ");
             Statement statement = connection.createStatement();
 
             ResultSet resultSet = statement.executeQuery("SELECT patient_id, name, problem, bill FROM patients");

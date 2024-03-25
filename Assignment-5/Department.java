@@ -24,10 +24,9 @@ class Department {
 public class Main {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/departments";
-        String user = "brad traversy";
-        String password = "brad@$123";
+        String user = "John Cena";
+        String password = "john@$123";
 
-        // Create Department object
         Department department = new Department(1, "Engineering");
 
         try (Connection conn = DriverManager.getConnection(url, user, password)) {

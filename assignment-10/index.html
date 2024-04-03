@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Full Name" />
+      </div>
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="phNum">Contact phone no:</label>
+        <input type="number" placeholder="Your contact info" />
+      </div>
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="pref">Preferred days of purchasing:</label>
+        <select name="preference">
+          <option value="sunday">Sunday</option>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+        </select>
+      </div>
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="fav">Favorite items:</label>
+        <select name="fav">
+          <option value="item1">Item 1</option>
+          <option value="item2">Item 2</option>
+          <option value="item3">Item 3</option>
+        </select>
+      </div>
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="suggestions">Suggestions:</label>
+        <textarea name="suggestions" cols="30" rows="10"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

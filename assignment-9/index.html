@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <form action="">
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Full Name" />
+      </div>
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="email">Email:</label>
+        <input type="text" placeholder="email address" />
+      </div>
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="password">Password:</label>
+        <input type="password" placeholder="8 characters" />
+      </div>
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="confirm">Confirm Password:</label>
+        <input type="password" placeholder="Confirm Password" />
+      </div>
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="date">Date Of Birth:</label>
+        <input type="date" />
+      </div>
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="gender">Gender:</label>
+        <div>
+          <input type="radio" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" value="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" value="other" />
+          <label for="other">Other</label>
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="photo">Insert your photo:</label>
+        <input type="file" name="photo" />
+      </div>
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="resume">Insert your resume:</label>
+        <input type="file" name="resume" />
+      </div>
+      <div style="display: flex; flex-direction: column; width: 70%">
+        <label for="security">Security Question:</label>
+        <select name="secQues">
+          <option value="q1">Select</option>
+          <option value="q2">Question 2</option>
+          <option value="q3">Question 3</option>
+        </select>
+      </div>
+      <div style="display: flex; width: 70%">
+        <input type="checkbox" />
+        <label for="terms">I agree to terms and conditions</label>
+      </div>
+
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
